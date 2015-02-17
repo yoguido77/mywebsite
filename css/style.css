@@ -1,0 +1,276 @@
+html { 
+  background: url(http://medias.photodeck.com/ea1e74ea-8c58-11e3-bb75-1d3643006da1/MG-7153-Chicago-Bean-Skyline-Black-And-White_xgaplus.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	color: black;
+}
+
+/*img {
+	padding-top: 50px;
+	vertical-align: center;
+	text-align: center;
+	vertical-align: cente
+
+}
+*/
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+h2 span{ 
+  position:absolute; 
+  top: -75px;
+  bottom: 50px;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+span {
+	font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+
+}
+
+#nav {
+	background: #5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	position:fixed;
+	width:100%;
+	top:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.93;
+	z-index:9999;
+	display: inline-block;
+	/*text-align: center;*/
+	padding-bottom: 5px;
+	padding-top: 25px;
+	/*margin:0 auto;*/
+}
+
+
+
+#nav-wrapper { 
+	width:960px;
+	/*text-align: center;*/
+	color: white;
+	display: inline-block;
+	margin:0 auto;
+
+}
+
+
+
+#nav li { 
+	display: inline-block;
+	list-style-type:none;
+	/*padding:15px; */
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 84px;
+	
+}
+
+
+#nav ul a:hover { 
+	
+	background-color:#333;
+}
+
+#nav ul li a,visited { 
+	color: white;
+	display:block;
+	text-decoration:none;
+}
+
+#me  {
+  text-align: center;
+  
+  
+}
+
+#me span a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+ #circle {
+    
+	border-radius: 75% 75% 75% 75%;
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+
+}
+
+/*#me #circle span a {
+  text-decoration: none;
+
+}*/
+
+
+#linkedin ul {
+  /*position: fixed;*/
+  display: inline-block;
+  list-style-type:none;
+  
+}
+
+#linkedin ul li {
+
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 160px;
+  margin-right: 15px;
+  
+}
+
+/*#linkedin ul #*/
+
+#wrapper {
+  width: 1343px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#content{
+  overflow: auto;
+  background-color: #FFF;
+ /* border: 3px solid #DDD;*/
+  padding: 20px;
+  margin: 130px 220px 80px 220px;
+  opacity: 0.93;
+  box-shadow: 0 0 7px 7px #000;
+  
+}
+
+#container {
+  margin: auto;
+  width: 900px;
+  padding: 0px 25px;
+  margin-top: 65px;
+  color: white;
+}
+
+#skill_display_box {
+  font-family: 'Days One', sans-serif;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  color: black;
+  /*background-color: #CFD3E3;*/
+  height: 230px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#skill_display_box div {
+  display: none;
+}
+
+#skill_display_box p {
+  display: inline-block;
+}
+
+#skill_display_box .active_tab {
+  display: block;
+}
+
+#tabs-1 p {
+  display: inline-block;
+}
+
+#tabs-1 p span {
+  display: block;
+  font-style: italic;
+  text-align: center;
+
+}
+
+#tabs-2 p span {
+  display: block;
+  font-style: italic;
+  text-align: center;
+
+}
+
+#tabs-3 p span {
+  display: block;
+  font-style: italic;
+  text-align: center;
+
+}
+
+#tabs-4 p span {
+display: block;
+font-style: italic;
+text-align: center;
+
+}
+#tabs-5 p span {
+display: block;
+font-style: italic;
+text-align: center;
+
+}
+
+#mongoose {
+  font-weight: 100;
+  font-family: sans-serif;
+  letter-spacing: -7px;
+  }
+
+#tabs-6 p span {
+  display: block;
+  font-style: italic;
+  text-align: center;
+
+}
+
+#tabs-7 p span {
+display: block;
+font-style: italic;
+text-align: center;
+
+}
+.large-pad {
+  padding: 0px 80px;
+  padding-bottom: 5px;
+}
+.small-pad {
+  padding: 0px 10px;
+}
+
+.orm {
+  font-size: 2.9em;
+  margin: 20px;
+ 
+}
+
+#copyright {
+	/*border-top: 8px solid #2A0400;*/
+	padding: 15px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}
